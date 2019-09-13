@@ -10,9 +10,9 @@ A rider has some internal energy due to gravity and the velocity they travel. Th
 
 ## Ride Info
 
-![Elevation](Show/Elevation.png)
+![MapEle](Show/Map.png)
 
-![MapEle](Show/MapEle.png)
+![Elevation](Show/Elevation.png)
 
 ## Power Output
 
