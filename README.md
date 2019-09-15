@@ -10,9 +10,9 @@ A rider has some internal energy due to gravity and the velocity they travel. Th
 
 ## Calibrating Friction
 
-To test the coefficient of friction for air resistance, I rode down a hill without pedaling or braking. Additionally, wind was recorded to be < 10km/h. Thus my power should 0 watts and any change in energy is due to friction. The graph below compares the calculated $\Delta$ energy to the estimated power due to friction where the coefficient of air resistance and rolling resistance is 0.42 and 0.0008 respectivly.
+To test the coefficient of friction for air resistance, I rode down a hill without pedaling or braking. Additionally, wind was recorded to be < 10km/h. Thus my power should 0 watts and any change in energy is due to friction. The graph below compares the calculated $\Delta$ energy to the estimated power due to friction where the coefficient of air resistance and rolling resistance is 0.42 and 0.0008 respectively.
 
-![Friction Calibration](Show/Calibrating Friction.png)
+![Friction Calibration](Show/CalibratingFriction.png)
 
 These values agree with data from [Cycling Power Labs](https://www.cyclingpowerlab.com/CyclingAerodynamics.aspx)  that suggests the CdA = 0.4 while riding on the hoods.
 
@@ -25,6 +25,8 @@ However, the true test of power is on the climbs where air resistance is less si
 ![Power](Show/Power.png)
 
 This yeilded an average power of 203.4 watts. This closely agrees with calculations by Strava with < 5% error.
+
+### Strava Power
 
 ![Strava Avg Power](Show/Strava.png)
 
