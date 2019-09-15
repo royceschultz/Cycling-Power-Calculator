@@ -10,15 +10,13 @@ A rider has some internal energy due to gravity and the velocity they travel. Th
 
 ## Calibrating Friction
 
-To test the coefficient of friction for air resistance, I rode down a hill without pedaling or braking. Additionally, wind was recorded to be < 10km/h. Thus my power should 0 watts and any change in energy is due to friction. The graph below compares the calculated $\Delta$ energy to the estimated power due to friction where the coefficient of air resistance and rolling resistance is 0.42 and 0.0008 respectively.
+To test the coefficient of friction for air resistance, I rode down a hill without pedaling or braking. Additionally, wind was recorded to be < 10km/h. Thus my power should 0 watts and any change in energy is due to friction. The graph below compares the calculated change in energy to the estimated power due to friction where the coefficient of air resistance and rolling resistance is 0.42 and 0.0008 respectively.
 
 ![Friction Calibration](Show/CalibratingFriction.png)
 
-These values agree with data from [Cycling Power Labs](https://www.cyclingpowerlab.com/CyclingAerodynamics.aspx)  that suggests the CdA = 0.4 while riding on the hoods.
+Because the values are approximately equal, the estimated power output is approximately 0. The true test of power is on the hills where frictional forces are smaller than in this test. Even sill, the coefficient of air resistance agree with data from [Cycling Power Labs](https://www.cyclingpowerlab.com/CyclingAerodynamics.aspx)  that suggests the CdA = 0.4.
 
 There are some other factors to account for. I conducted this test riding on the hoods, a more upright and un-aerodynamic position. This position can account for most riding, however at high speeds riders will ride in the drops, minimizing their frontal area and becoming more aerodynamic. A more clever model would adjust the coefficient of friction when a rider is likely riding in a more aerodynamic position.
-
-However, the true test of power is on the climbs where air resistance is less significant.
 
 ## Segment Analysis: Old Stage Road
 
@@ -27,6 +25,7 @@ However, the true test of power is on the climbs where air resistance is less si
 This yeilded an average power of 203.4 watts. This closely agrees with calculations by Strava with < 5% error.
 
 ### Strava Power
+Strava is an app used by cyclists, runners and other athletes to track their progress. Strava will output average power over a segment, but charges a monthly membership for estimated instantaneous power.
 
 ![Strava Avg Power](Show/Strava.png)
 
