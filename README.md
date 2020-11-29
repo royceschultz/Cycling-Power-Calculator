@@ -32,7 +32,9 @@ TODO
 
 ### Frictional Power Estimation
 
+```terminal
 Power = Joules / second = Force * Distance / Time = Force * Velocity
+```
 
 **Drivetrain friction** is generally very small and can be ignored. Manufacturers selling [expensive chains](https://www.ceramicspeed.com/en/cycling/shop/ufo-products/ufo-racing-chain-shimano-11s/) with special coatings only claim a 2-5 watt improvement.
 
@@ -40,7 +42,9 @@ The force of **rolling resistance** is proportional to mass. Then simply multipl
 
 The force due to **air resistance** is well understood.
 
+```terminal
 F = .5 * density of air * velocity**2 * coefficient of drag * frontal area
+```
 
 Then, like rolling resistance, multiply by velocity to calculate power.
 The density of air depends on your location and temperature. This ride in Boulder is at altitude (over a mile high) and on a warm summer day (over 30°C 🔥🥵), so the density and thus energy lost to air resistance is lower than a ride at sea-level.
