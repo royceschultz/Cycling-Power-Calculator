@@ -40,7 +40,7 @@ The force of **rolling resistance** is proportional to mass. Then simply multipl
 
 The force due to **air resistance** is well understood.
 
-F = .5 * density of air * velocity**2 * coeficcient of drag * frontal area
+F = .5 * density of air * velocity**2 * coefficient of drag * frontal area
 
 Then, like rolling resistance, multiply by velocity to calculate power.
 The density of air depends on your location and temperature. This ride in Boulder is at altitude (over a mile high) and on a warm summer day (over 30°C 🔥🥵), so the density and thus energy lost to air resistance is lower than a ride at sea-level.
@@ -78,7 +78,7 @@ Because the values are approximately equal, the estimated power output is approx
 
 ![Power](Show/Power.png)
 
-This yeilded an average power of 203.4 watts. This closely agrees with calculations by Strava with < 5% error.
+This yielded an average power of 203.4 watts. This closely agrees with calculations by Strava with < 5% error.
 
 
 ## Training Tools
