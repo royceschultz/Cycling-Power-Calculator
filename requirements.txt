@@ -36,9 +36,9 @@ fsspec==2025.3.2
     # via
     #   gradio-client
     #   huggingface-hub
-gradio==5.25.2
+gradio==5.31.0
     # via -r requirements.in
-gradio-client==1.8.0
+gradio-client==1.10.1
     # via gradio
 groovy==0.1.2
     # via gradio
