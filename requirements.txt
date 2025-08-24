@@ -91,7 +91,7 @@ pandas==2.2.3
     # via
     #   -r requirements.in
     #   gradio
-pillow==11.2.1
+pillow==11.3.0
     # via gradio
 plotly==6.0.1
     # via -r requirements.in
