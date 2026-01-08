@@ -54,6 +54,14 @@ def load_fit_file(filename):
             lambda x: x * (180 / 2**31) if pd.notnull(x) else x
         )
 
+    # If 'altitude' is missing or all None, try to use 'enhanced_altitude'
+    if ('altitude' in df and df['altitude'].isna().all() or 'altitude' not in df) and 'enhanced_altitude' in df:
+        df['altitude'] = df['enhanced_altitude']
+
+    # If 'speed' is missing or all None, try to use 'enhanced_speed'
+    if ('speed' in df and df['speed'].isna().all() or 'speed' not in df) and 'enhanced_speed' in df:
+        df['speed'] = df['enhanced_speed']
+
     # Fill columns with NA if they are not present in the data
     for col in record_types:
         if col not in df.columns:
