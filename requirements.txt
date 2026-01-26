@@ -107,7 +107,7 @@ pygments==2.19.1
     # via rich
 python-dateutil==2.9.0.post0
     # via pandas
-python-multipart==0.0.20
+python-multipart==0.0.22
     # via gradio
 pytz==2025.2
     # via pandas
